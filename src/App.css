@@ -1,0 +1,27 @@
+body {
+  font-family: "Open sans Condensed", sans-serif;
+  padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  body {
+    padding: 5px 10px;
+  }
+}
